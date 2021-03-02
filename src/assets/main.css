@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'aileronsregular';
+    src:  url('~assets/Ailerons-Regular-East.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'Conv_Ubuntu-LI';
+	src: url('~assets/fonts/Ubuntu-LI.eot');
+	src: local('☺'), url('~assets/fonts/Ubuntu-LI.woff') format('woff'), url('~assets/fonts/Ubuntu-LI.ttf') format('truetype'), url('~assets/fonts/Ubuntu-LI.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+body {
+    font-family:  'aileronsregular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+
+}
+.podstrona p, .podstrona li, .podstrona textarea  {
+  font-family: 'Conv_Ubuntu-LI';
+  font-weight: normal;
+  font-style: normal;
+}
+#fanipay-form-submit,
+#fanipay-header {
+  font-family: aileronsregular,sans-serif !important;
+  z-index: 15474864 !important;
+
+}
+
+#fanipay-wrapper {
+  font-family: 'Conv_Ubuntu-LI' !important;
+  font-weight: normal;
+  font-style: normal;
+  z-index: 15474864 !important;
+
+}
