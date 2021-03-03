@@ -1,6 +1,6 @@
-const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/luke/Documents/UDEMY/futurystyczna/node_modules/gridsome/app/pages/404.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--templates--contentful-pages-vue" */ "/home/luke/Documents/UDEMY/futurystyczna/src/templates/ContentfulPages.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/luke/Documents/UDEMY/futurystyczna/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/luke/Documents/UDEMY/futuristic/node_modules/gridsome/app/pages/404.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--templates--contentful-pages-vue" */ "/home/luke/Documents/UDEMY/futuristic/src/templates/ContentfulPages.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/luke/Documents/UDEMY/futuristic/src/pages/Index.vue")
 
 export default [
   {

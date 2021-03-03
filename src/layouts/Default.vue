@@ -6,7 +6,7 @@
     <g-link  to="/" >
       <h1 id="onlyDesk" class="title dolik" ref='title' @click="ruszaj" > {{name}}</h1>
 
-    <h2 id="onlyPhone" class=" title dolik" ref='title2' @click="ruszaj"   >  Futuristic<span>Fundation</span></h2>
+    <h2 id="onlyPhone" class=" title dolik" ref='title2' @click="ruszaj"   >  Futuristic<span>.Fundation</span></h2>
   </g-link>
 
 
@@ -40,7 +40,7 @@ export default {
 
   data()  {
     return {
-      name: 'FuturisticFoundation',
+      name: 'Futuristic.Foundation',
       stan: 'brak',
       zamykacz: false
 
