@@ -1,7 +1,6 @@
 <template>
   <div class="container  section2">
-    <div class="loader">
-    </div>
+
 
 
     <g-link  to="/" >
@@ -44,7 +43,6 @@ export default {
       name: 'Futuristic.Foundation',
       stan: 'brak',
       zamykacz: false
-
     }
   },
   methods: {
@@ -73,10 +71,11 @@ export default {
     const { title } = this.$refs;
     const { title2 } = this.$refs;
     const timeline = new TimelineLite();
-    const loader = document.querySelector(".loader")
-    timeline.to(loader, 0.8, {x: '-100%'}).to(loader, 1, {opacity: 0.0});
+
     gsap.to(title2, 1, {  x: '16vw' });
     gsap.to(title, 1, {  x: '16vw' });
+
+
 
 
     const RUCHY = document.querySelectorAll('.ruch');
@@ -484,14 +483,6 @@ textarea {
   color: #fff;
 }
 
-.loader {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top:0; left:0;
-  background-color: #000;
-  z-index: 1000000;
-  display: block;
-}
+
 
 </style>
