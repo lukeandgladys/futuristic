@@ -49,9 +49,9 @@ import { TimelineLite, TweenMax, gsap } from 'gsap';
 export default {
 
   mounted() {
-    const timeline = new TimelineLite();
+    const timeline = new TimelineLite()
     const loader = document.querySelector(".loader")
-    timeline.to(loader, 0.8, {x: '-100%'}).to(loader, 1, {opacity: 0});
+    timeline.to(loader, 0.6, {x: '-100%'}).to(loader, 1, {opacity: 0});
   }
 
 
