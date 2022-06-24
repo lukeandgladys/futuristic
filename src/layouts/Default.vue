@@ -273,9 +273,9 @@ h1 {
     display: none;
   }
   .zamykacz {
-    transform:skewX(-20deg) translateX(19vh);
+    transform:skewX(-20deg) translateX(0);
     position: fixed;
-    bottom:0; right: 0;
+    bottom:0; right: -19vh;
     display: block;
 
     z-index: 1547486410 !important;
@@ -285,7 +285,7 @@ h1 {
     text-align: left;
     margin: 0;
     padding: 21vh 3vh 5vh 1vh ;
-    animation: pokaZamykaczMobi 1s ease-in-out;
+
   }
   /* .zamykacz:hover {
 
@@ -449,10 +449,7 @@ ul li {
   from {opacity: 0; transform: skewX(-20deg) translateX(-41vh);}
   to {  opacity: 1; transform: skewX(-20deg) translateX(-21vh);}
 }
-@keyframes pokaZamykaczMobi {
-  from {opacity: 0; transform: skewX(-20deg) translateX(29vh);}
-  to {  opacity: 1; transform: skewX(-20deg) translateX(19vh);}
-}
+
 
 @keyframes wysun {
   from {transform: skewX(-20deg) translateX(-21vh);}
