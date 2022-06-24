@@ -276,7 +276,7 @@ h1 {
     transform:skewX(-20deg) translateX(0);
     position: fixed;
     bottom:0; right: -19vh;
-    display: block;
+    display: none;
 
     z-index: 1547486410 !important;
     width: 21vh;
